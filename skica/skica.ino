@@ -31,7 +31,7 @@ void setup()
     Serial.println(WiFi.localIP());
 
     const esp_websocket_client_config_t ws_cfg = {
-        .uri = "wss://ws-tutorial-sviki.herokuapp.com/",
+        .uri = "wss://prepisivanje-096671a795bc.herokuapp.com/",
     };
 
     handle = esp_websocket_client_init(&ws_cfg);
